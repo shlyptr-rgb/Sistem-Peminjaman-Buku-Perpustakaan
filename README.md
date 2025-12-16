@@ -1,1 +1,14 @@
-# Sistem-Peminjaman-Buku-Perpustakaan
+Skema Basis Data (Database Schema)  Sistem Peminjaman Buku di Perpustakaan.<img width="975" height="430" alt="image" src="https://github.com/user-attachments/assets/4efb35ab-a193-4b71-a450-5253484d5463" />
+Implementasi Skema Basis Data: Tampilan Dashboard Aplikasi Peminjaman Buku.
+Halaman Utama (Dashboard) berfungsi sebagai menu navigasi utama sistem. Tampilan ini mengonfirmasi koneksi ke database berhasil dan menyediakan akses cepat ke empat modul utama aplikasi: Data Peminjam, Data Buku, Data Petugas, dan Transaksi. Ini adalah gerbang untuk seluruh fungsi manajemen peminjaman buku.<img width="975" height="469" alt="image" src="https://github.com/user-attachments/assets/4d2e06b2-b44f-41b1-a339-77f010dad701" />
+Data Peminjam
+Halaman Data Peminjam berfungsi sebagai modul manajemen utama untuk mengelola informasi pengguna perpustakaan. Tampilan ini merupakan implementasi langsung dari tabel peminjam pada skema basis data. Data disajikan dalam bentuk tabel yang mencakup atribut penting seperti ID, Nama, Alamat, Telepon, dan Batas Pinjam. Halaman ini mendukung operasi CRUD; Tambah Peminjam digunakan untuk input data baru, sementara kolom Aksi memfasilitasi pembaruan (Edit) dan penghapusan (Delete) data peminjam yang sudah terdaftar.<img width="975" height="470" alt="image" src="https://github.com/user-attachments/assets/c5d8a867-60e8-47c9-9be0-c5eb5d2bab2f" />
+Tampilan Halaman Pengelolaan Data Buku
+Halaman Data Buku adalah antarmuka untuk pengelolaan inventaris koleksi buku. Tampilan ini menyajikan data utama buku (ID, Judul, Pengarang, Penerbit, Tahun, dan Stok) dalam format tabel. Fungsi utamanya adalah melakukan operasi CRUD (Create, Read, Update, Delete) terhadap data buku melalui tombol Tambah Buku dan ikon Aksi (Edit dan Hapus).<img width="975" height="468" alt="image" src="https://github.com/user-attachments/assets/2d0e72e6-d0f8-4236-be31-5839ae2ac651" />
+Halaman Data Petugas	
+Halaman Data Petugas digunakan untuk mengelola informasi staf atau petugas perpustakaan. Tabel ini menampilkan data identitas berupa ID Petugas, Nama Petugas, dan Jabatan staf yang berwenang. Pengguna dapat menambah data baru melalui tombol Tambah Petugas atau memperbarui data yang ada menggunakan menu Aksi.<img width="975" height="475" alt="image" src="https://github.com/user-attachments/assets/27e8cfcb-0af8-4fa5-b358-43ff22ea0c98" />
+Halaman Data Transaksi Peminjaman.
+Halaman Data Transaksi Peminjaman berfungsi mencatat seluruh aktivitas pinjam dan kembali buku. Tampilan ini menyajikan informasi lengkap tentang transaksi, yang melibatkan Peminjam, Buku, dan Petugas yang bertugas. Kolom penting yang dicatat meliputi Tanggal Pinjam, Jatuh Tempo, dan Status peminjaman (Dipinjam atau Dikembalikan). Pengguna dapat memulai transaksi baru melalui tombol Tambah Transaksi atau mengelola status transaksi yang sudah ada melalui menu Aksi.<img width="975" height="476" alt="image" src="https://github.com/user-attachments/assets/c9e5a2d7-4521-4c4f-b56e-cc1b84a37ddd" />
+
+
+
